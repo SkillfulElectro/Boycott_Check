@@ -2,7 +2,7 @@
 
 Hi everyone,
 
-This is my first time working with an API. I recently acquired access to a website's API specifically designed for users in Iran. It allows them to determine if a website is currently subjected to boycotts or not. You can also use it to check if your Iranian friend has access to certain websites or not!
+This is my first time working with an API from a website. I recently acquired access to a website's API specifically designed for users in Iran. It allows them to determine if a website is currently subjected to boycotts or not. You can also use it to check if your Iranian friend has access to certain websites or not!
 
 In the near future, I plan to delve into web automation using C++. My aim is to create tools that can streamline the process of automating your daily tasks on different websites.
 
