@@ -41,6 +41,20 @@ func main() {
 		fmt.Println("This website is under boycott")
 	} else {
 		fmt.Println("This website is not under boycott")
+		fmt.Println("even though it is not under boycott, checking if the service is reachable! . . .")
+		fmt.Println("this method is not specified just for Iran")
+		res, err = http.Get(WebAddr)
+
+		if err != nil {
+			fmt.Println("this website is banned in your country : ", err)
+			return
+		}
+
+		if res.StatusCode != 200 {
+			fmt.Println("This website might not be reachable!")
+		} else {
+			fmt.Println("This website wont cause you any problem")
+		}
 	}
 }
 
